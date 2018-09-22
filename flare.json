@@ -1,9 +1,9 @@
 [{
   "name": "single.master.language",
-  "imports": ["single.master.writing", "single.lng.Shilha", "single.lng.Anglo-Saxon", "single.lng.Inuktitut", "single.lng.Kurdish", "single.lng.Serbian", "single.lng.Kazakh"]
+  "imports": ["single.master.writing","single.lng.Malay","single.lng.Punjabi","single.lng.Sanskrit","single.lng.Kashmiri","single.lng.Chinese","single.lng.Mongolian", "single.lng.Japanese","single.lng.Shilha", "single.lng.Anglo-Saxon", "single.lng.Inuktitut", "single.lng.Kurdish", "single.lng.Serbian", "single.lng.Kazakh"]
 }, {
   "name": "single.master.writing",
-  "imports": ["single.master.language", "single.wr.Tifinagh", "single.wr.Runic", "single.wr.Arabic", "single.wr.Inuktitut", "single.wr.Latin", "single.wr.Cyrillic", "single.wr.Perso-Arabic"]
+  "imports": ["single.master.language","single.wr.Jawi","single.wr.Bengali","single.wr.Gurmukhi","single.wr.Kannada","single.wr.Telugu","single.wr.Malayalam", "single.wr.Shahmukhi","single.wr.Han-geul","single.wr.Devanagari","single.wr.Sharda","single.wr.Brahmi","single.wr.Gujarati","single.wr.Kanji","single.wr.Hiragana","single.wr.Katakana","single.wr.Mongolian","single.wr.Traditional Chinese","single.wr.Simplified Chinese","single.wr.Han-ja", "single.wr.Tifinagh", "single.wr.Runic", "single.wr.Arabic", "single.wr.Inuktitut", "single.wr.Latin", "single.wr.Cyrillic", "single.wr.Perso-Arabic"]
 },{
   "name": "single.lng.Serbian",
   "imports": ["single.master.language", "single.wr.Latin", "single.wr.Cyrillic"]
@@ -43,6 +43,89 @@
 }, {
   "name": "single.wr.Tifinagh",
   "imports": ["single.master.writing", "single.lng.Shilha"]
+}, {
+  "name": "single.lng.Japanese",
+  "imports": ["single.master.language", "single.wr.Kanji", "single.wr.Hiragana", "single.wr.Katakana"]
+}, {
+  "name": "single.wr.Kanji",
+  "imports": ["single.master.writing", "single.lng.Japanese"]
+}, {
+  "name": "single.wr.Hiragana",
+  "imports": ["single.master.writing", "single.lng.Japanese"]
+}, {
+  "name": "single.wr.Katakana",
+  "imports": ["single.master.writing", "single.lng.Japanese"]
+}, {
+  "name": "single.lng.Mongolian",
+  "imports": ["single.master.language", "single.wr.Mongolian", "single.wr.Cyrillic"]
+}, {
+  "name": "single.wr.Mongolian",
+  "imports": ["single.master.writing", "single.lng.Mongolian"]
+}, {
+  "name": "single.lng.Chinese",
+  "imports": ["single.master.language", "single.wr.Traditional Chinese", "single.wr.Simplified Chinese"]
+}, {
+  "name": "single.wr.Traditional Chinese",
+  "imports": ["single.master.writing", "single.lng.Chinese"]
+}, {
+  "name": "single.wr.Simplified Chinese",
+  "imports": ["single.master.writing", "single.lng.Chinese"]
+}, {
+  "name": "single.lng.Korean",
+  "imports": ["single.master.language", "single.wr.Han-ja", "single.wr.Han-geul"]
+}, {
+  "name": "single.wr.Han-ja",
+  "imports": ["single.master.writing", "single.lng.Korean"]
+}, {
+  "name": "single.wr.Han-geul",
+  "imports": ["single.master.writing", "single.lng.Korean"]
+}, {
+  "name": "single.lng.Kashmiri",
+  "imports": ["single.master.language", "single.wr.Perso-Arabic", "single.wr.Devanagari", "single.wr.Sharda"]
+}, {
+  "name": "single.wr.Devanagari",
+  "imports": ["single.master.writing", "single.lng.Kashmiri"]
+}, {
+  "name": "single.wr.Sharda",
+  "imports": ["single.master.writing", "single.lng.Kashmiri"]
+}, {
+  "name": "single.lng.Sanskrit",
+  "imports": ["single.master.language", "single.wr.Devanagari", "single.wr.Brahmi", "single.wr.Gujarati", "single.wr.Gurmukhi", "single.wr.Bengali", "single.wr.Kannada","single.wr.Telugu","single.wr.Malayalam"]
+}, {
+  "name": "single.wr.Brahmi",
+  "imports": ["single.master.writing", "single.lng.Sanskrit"]
+}, {
+  "name": "single.wr.Gujarati",
+  "imports": ["single.master.writing", "single.lng.Sanskrit"]
+}, {
+  "name": "single.wr.Gurmukhi",
+  "imports": ["single.master.writing", "single.lng.Sanskrit"]
+}, {
+  "name": "single.wr.Bengali",
+  "imports": ["single.master.writing", "single.lng.Sanskrit"]
+}, {
+  "name": "single.wr.Kannada",
+  "imports": ["single.master.writing", "single.lng.Sanskrit"]
+}, {
+  "name": "single.wr.Telugu",
+  "imports": ["single.master.writing", "single.lng.Sanskrit"]
+}, {
+  "name": "single.wr.Malayalam",
+  "imports": ["single.master.writing", "single.lng.Sanskrit"]
+}, {
+  "name": "single.lng.Punjabi",
+  "imports": ["single.master.language", "single.wr.Gurmukhi", "single.wr.Shahmukhi"]
+}, {
+  "name": "single.wr.Shahmukhi",
+  "imports": ["single.master.writing", "single.lng.Punjabi"]
+}, {
+  "name": "single.lng.Malay",
+  "imports": ["single.master.language", "single.wr.Latin", "single.wr.Jawi"]
+}, {
+  "name": "single.wr.Jawi",
+  "imports": ["single.master.writing", "single.lng.Malay"]
 }
+
+
 
 ]
