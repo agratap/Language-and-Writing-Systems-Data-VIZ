@@ -1,317 +1,48 @@
 [{
   "name": "single.master.language",
-  "imports": ["single.master.writing", "single.lng.Abaza", "single.lng.Abellen", "single.lng.Abenaki", "single.lng.Abkhaz", "single.lng.Abui", "single.lng.Achang", "single.lng.Acehnese", "single.lng.Acheron", "single.lng.Achi", "single.lng.Acholi", "single.lng.Achuar-Shiwiar", "single.lng.Achumawi", "single.lng.Adaizan", "single.lng.Adamaua Fulfulde", "single.lng.Adyghe", "single.lng.Adzera", "single.lng.Afaan Oromo", "single.lng.Afar", "single.lng.Afrikaans", "single.lng.Aghul", "single.lng.Aguacateco", "single.lng.Aguaruna", "single.lng.A-Hmao", "single.lng.Ahom", "single.lng.Ahtna", "single.lng.Ainu", "single.lng.Aja", "single.lng.Ajië", "single.lng.Akan", "single.lng.Akhvakh", "single.lng.Akkadian", "single.lng.Aklan", "single.lng.Akurio", "single.lng.Alabama", "single.lng.Albanian", "single.lng.Aleut", "single.lng.Algonquin", "single.lng.Alsatian", "single.lng.Altay", "single.lng.Alur", "single.lng.Alutiiq", "single.lng.Amahuaca", "single.lng.Amarakaeri", "single.lng.Amarasi", "single.lng.Amele", "single.lng.Amharic", "single.lng.Amis", "single.lng.Andi", "single.lng.Andoa", "single.lng.Angami", "single.lng.Anglo-Saxon", "single.lng.Anuki", "single.lng.Anutan", "single.lng.Apache", "single.lng.Apma", "single.lng.Arabela", "single.lng.Arabic (Algerian)", "single.lng.Arabic (Cypriot)", "single.lng.Arabic (Egyptian)", "single.lng.Arabic (Lebanese)", "single.lng.Arabic (Modern Standard)", "single.lng.Arabic (Moroccan)", "single.lng.Arabic (Syrian)", "single.lng.Arabic (Tunisian)", "single.lng.Aragonese", "single.lng.Arakanese", "single.lng.Araki", "single.lng.Aramaic", "single.lng.Aranese", "single.lng.Arapaho", "single.lng.Arawak", "single.lng.Arbëresh", "single.lng.Archi", "single.lng.Are", "single.lng.Argobba", "single.lng.Arikara", "single.lng.Aringa", "single.lng.Armenian", "single.lng.Aromanian", "single.lng.Arrernte", "single.lng.Arvanitic", "single.lng.Asháninka", "single.lng.Ashéninka", "single.lng.Assamese", "single.lng.Assiniboine", "single.lng.Assyrian / Neo-Assyrian", "single.lng.Asturian", "single.lng.Atayal", "single.lng.Atikamekw", "single.lng.Atong", "single.lng.’Auhelawa", "single.lng.Avar", "single.lng.Avestan", "single.lng.Avokaya", "single.lng.Awadhi", "single.lng.Awara", "single.lng.Awing", "single.lng.Awngi", "single.lng.Aymara", "single.lng.Äynu", "single.lng.Azerbaijani"]
+  "imports": ["single.master.writing", "single.lng.Shilha", "single.lng.Anglo-Saxon", "single.lng.Inuktitut", "single.lng.Kurdish", "single.lng.Serbian", "single.lng.Kazakh"]
 }, {
   "name": "single.master.writing",
-  "imports": ["single.master.language"]
+  "imports": ["single.master.language", "single.wr.Tifinagh", "single.wr.Runic", "single.wr.Arabic", "single.wr.Inuktitut", "single.wr.Latin", "single.wr.Cyrillic", "single.wr.Perso-Arabic"]
 },{
-  "name": "single.lng.Arabic",
-  "imports": ["single.master.language", "single.wr.Arabic"]
+  "name": "single.lng.Serbian",
+  "imports": ["single.master.language", "single.wr.Latin", "single.wr.Cyrillic"]
+}, {
+  "name": "single.wr.Latin",
+  "imports": ["single.master.writing", "single.lng.Serbian"]
+}, {
+  "name": "single.wr.Cyrillic",
+  "imports": ["single.master.writing", "single.lng.Serbian"]
+},{
+  "name": "single.lng.Kazakh",
+  "imports": ["single.master.language", "single.wr.Cyrillic", "single.wr.Latin", "single.wr.Perso-Arabic"]
+}, {
+  "name": "single.wr.Perso-Arabic",
+  "imports": ["single.master.writing", "single.lng.Kazakh"]
+}, {
+  "name": "single.lng.Kurdish",
+  "imports": ["single.master.language", "single.wr.Latin", "single.wr.Arabic", "single.wr.Cyrillic"]
 }, {
   "name": "single.wr.Arabic",
-  "imports": ["single.master.writing"]
+  "imports": ["single.master.writing", "single.lng.Kurdish"]
 }, {
-  "name": "single.lng.Abaza",
-  "imports": ["single.master.language"]
+  "name": "single.lng.Inuktitut",
+  "imports": ["single.master.language","single.wr.Inuktitut", "single.wr.Latin"]
 }, {
-  "name": "single.lng.Abellen",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Abenaki",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Abkhaz",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Abui",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Achang",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Acehnese",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Acheron",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Achi",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Acholi",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Achuar-Shiwiar",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Achumawi",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Adaizan",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Adamaua Fulfulde",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Adyghe",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Adzera",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Afaan Oromo",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Afar",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Afrikaans",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Aghul",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Aguacateco",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Aguaruna",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.A-Hmao",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Ahom",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Ahtna",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Ainu",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Aja",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Ajië",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Akan",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Akhvakh",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Akkadian",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Aklan",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Akurio",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Alabama",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Albanian",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Aleut",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Algonquin",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Alsatian",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Altay",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Alur",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Alutiiq",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Amahuaca",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Amarakaeri",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Amarasi",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Amele",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Amharic",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Amis",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Andi",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Andoa",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Angami",
-  "imports": ["single.master.language"]
+  "name": "single.wr.Inuktitut",
+  "imports": ["single.master.writing", "single.lng.Inuktitut"]
 }, {
   "name": "single.lng.Anglo-Saxon",
-  "imports": ["single.master.language"]
+  "imports": ["single.master.language", "single.wr.Latin","single.wr.Runic"]
 }, {
-  "name": "single.lng.Anuki",
-  "imports": ["single.master.language"]
+  "name": "single.wr.Runic",
+  "imports": ["single.master.writing", "single.lng.Anglo-Saxon"]
 }, {
-  "name": "single.lng.Anutan",
-  "imports": ["single.master.language"]
+  "name": "single.lng.Shilha",
+  "imports": ["single.master.language", "single.wr.Latin", "single.wr.Tifinagh"]
 }, {
-  "name": "single.lng.Apache",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Apma",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arabela",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arabic (Algerian)",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arabic (Cypriot)",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arabic (Egyptian)",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arabic (Lebanese)",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arabic (Modern Standard)",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arabic (Moroccan)",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arabic (Syrian)",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arabic (Tunisian)",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Aragonese",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arakanese",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Araki",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Aramaic",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Aranese",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arapaho",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arawak",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arbëresh",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Archi",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Are",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Argobba",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arikara",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Aringa",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Armenian",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Aromanian",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arrernte",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Arvanitic",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Asháninka",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Ashéninka",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Assamese",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Assiniboine",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Assyrian / Neo-Assyrian",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Asturian",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Atayal",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Atikamekw",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Atong",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.’Auhelawa",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Avar",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Avestan",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Avokaya",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Awadhi",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Awara",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Awing",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Awngi",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Aymara",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Äynu",
-  "imports": ["single.master.language"]
-}, {
-  "name": "single.lng.Azerbaijani",
-  "imports": ["single.master.language"]
+  "name": "single.wr.Tifinagh",
+  "imports": ["single.master.writing", "single.lng.Shilha"]
 }
+
 ]
