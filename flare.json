@@ -1,0 +1,10 @@
+[{
+  "name": "single.language.arabic",
+  "imports": ["single.writing.devanagari"]
+}, {
+  "name": "single.language.latin",
+  "imports": ["single.language.arabic"]
+}, {
+  "name": "single.writing.devanagari",
+  "imports": ["single.language.latin"]
+}]
