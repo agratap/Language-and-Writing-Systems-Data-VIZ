@@ -1,5 +1,6 @@
 # Language-and-Writing-Systems-Data-VIZ
 
-Data visualization of interrelation of languages and writing system associated with them.
+Data visualization of languages with multiple writing systems.
+
 
 A self-guided project to learn data visualization in d3.js
