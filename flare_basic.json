@@ -1,0 +1,14 @@
+[{
+  "name": "single.master.language",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.master.writing",
+  "imports": ["single.master.language"]
+},{
+  "name": "single.lng.Arabic",
+  "imports": ["single.master.language", "single.wr.Arabic"]
+}, {
+  "name": "single.wr.Arabic",
+  "imports": ["single.master.writing"]
+}
+]

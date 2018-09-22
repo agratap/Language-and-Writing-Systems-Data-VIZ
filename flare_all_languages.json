@@ -1,0 +1,3535 @@
+[{
+  "name": "single.master.Language",
+  "imports": ["single.lng.Abaza", "single.lng.Abellen", "single.lng.Abenaki", "single.lng.Abkhaz", "single.lng.Abui", "single.lng.Achang", "single.lng.Acehnese", "single.lng.Acheron", "single.lng.Achi", "single.lng.Acholi", "single.lng.Achuar-Shiwiar", "single.lng.Achumawi", "single.lng.Adaizan", "single.lng.Adamaua Fulfulde", "single.lng.Adyghe", "single.lng.Adzera", "single.lng.Afaan Oromo", "single.lng.Afar", "single.lng.Afrikaans", "single.lng.Aghul", "single.lng.Aguacateco", "single.lng.Aguaruna", "single.lng.A-Hmao", "single.lng.Ahom", "single.lng.Ahtna", "single.lng.Ainu", "single.lng.Aja", "single.lng.Ajië", "single.lng.Akan", "single.lng.Akhvakh", "single.lng.Akkadian", "single.lng.Aklan", "single.lng.Akurio", "single.lng.Alabama", "single.lng.Albanian", "single.lng.Aleut", "single.lng.Algonquin", "single.lng.Alsatian", "single.lng.Altay", "single.lng.Alur", "single.lng.Alutiiq", "single.lng.Amahuaca", "single.lng.Amarakaeri", "single.lng.Amarasi", "single.lng.Amele", "single.lng.Amharic", "single.lng.Amis", "single.lng.Andi", "single.lng.Andoa", "single.lng.Angami", "single.lng.Anglo-Saxon", "single.lng.Anuki", "single.lng.Anutan", "single.lng.Apache", "single.lng.Apma", "single.lng.Arabela", "single.lng.Arabic (Algerian)", "single.lng.Arabic (Cypriot)", "single.lng.Arabic (Egyptian)", "single.lng.Arabic (Lebanese)", "single.lng.Arabic (Modern Standard)", "single.lng.Arabic (Moroccan)", "single.lng.Arabic (Syrian)", "single.lng.Arabic (Tunisian)", "single.lng.Aragonese", "single.lng.Arakanese", "single.lng.Araki", "single.lng.Aramaic", "single.lng.Aranese", "single.lng.Arapaho", "single.lng.Arawak", "single.lng.Arbëresh", "single.lng.Archi", "single.lng.Are", "single.lng.Argobba", "single.lng.Arikara", "single.lng.Aringa", "single.lng.Armenian", "single.lng.Aromanian", "single.lng.Arrernte", "single.lng.Arvanitic", "single.lng.Asháninka", "single.lng.Ashéninka", "single.lng.Assamese", "single.lng.Assiniboine", "single.lng.Assyrian / Neo-Assyrian", "single.lng.Asturian", "single.lng.Atayal", "single.lng.Atikamekw", "single.lng.Atong", "single.lng.’Auhelawa", "single.lng.Avar", "single.lng.Avestan", "single.lng.Avokaya", "single.lng.Awadhi", "single.lng.Awara", "single.lng.Awing", "single.lng.Awngi", "single.lng.Aymara", "single.lng.Äynu", "single.lng.Azerbaijani", 
+  	"single.lng.Babine-Witsuwit'en", "single.lng.Badaga", "single.lng.Bagatha", "single.lng.Bagvalal", "single.lng.Bai", "single.lng.Baka", "single.lng.Balangao", "single.lng.Balinese", "single.lng.Balkar", "single.lng.Balti", "single.lng.Baluchi", "single.lng.Bambara", "single.lng.Bamum", "single.lng.Bandial", "single.lng.Baniwa", "single.lng.Bantawa", "single.lng.Baoulé", "single.lng.Barai", "single.lng.Barbareño", "single.lng.Bari", "single.lng.Bariba", "single.lng.Bartangi", "single.lng.Bashkir", "single.lng.Basque", "single.lng.Bassa", "single.lng.Batak", "single.lng.Batsbi", "single.lng.Bavarian", "single.lng.Beaver", "single.lng.Beja", "single.lng.Belarusian", "single.lng.Beli", "single.lng.Bella Coola (Nuxalk)", "single.lng.Bemba", "single.lng.Bench", "single.lng.Bengali", "single.lng.Berber (Tamazight)", "single.lng.Betawi", "single.lng.Bezhta", "single.lng.Bhojpuri", "single.lng.Biete", "single.lng.Bikol", "single.lng.Biloxi", "single.lng.Bima", "single.lng.Bislama", "single.lng.Bisu", "single.lng.Blackfoot", "single.lng.Blagar", "single.lng.Blin", "single.lng.Bodo", "single.lng.Bokar", "single.lng.Bolinao", "single.lng.Bongo", "single.lng.Bontoc", "single.lng.Bora", "single.lng.Bosnian", "single.lng.Botlikh", "single.lng.Botolan", "single.lng.Bouyei", "single.lng.Breton", "single.lng.Budukh", "single.lng.Bugis", "single.lng.Buhid", "single.lng.Buhutu", "single.lng.Bulgarian", "single.lng.Bulu", "single.lng.Bundjalung", "single.lng.Bunun", "single.lng.Burmese", "single.lng.Burushaski", "single.lng.Buryat", "single.lng.Busa", "single.lng.Bushi", "single.lng.Bhutanese", "single.lng.Caddo", "single.lng.Caluyanon", "single.lng.Cambodian (Khmer)", "single.lng.Canaanite", "single.lng.Cantonese", "single.lng.Cape Verdean Creole", "single.lng.Caquinte", "single.lng.Carian", "single.lng.Carrier", "single.lng.Casiguran Dumagat Agta", "single.lng.Catalan", "single.lng.Cayuga", "single.lng.Cebuano", "single.lng.Celtiberian", "single.lng.Central Sinama", "single.lng.Chagatai", "single.lng.Chaha", "single.lng.Chaldean Neo-Aramaic", "single.lng.Cham", "single.lng.Chamalal", "single.lng.Chambeali", "single.lng.Chamorro", "single.lng.Chang", "single.lng.Cha'palaachi", "single.lng.Chatino", "single.lng.Chavacano", "single.lng.Chayahuita", "single.lng.Chechen", "single.lng.Chelkan", "single.lng.Cherokee", "single.lng.Cheyenne", "single.lng.Chichewa", "single.lng.Chickasaw", "single.lng.Chilcotin", "single.lng.Chinanteco", "single.lng.Chinese", "single.lng.Chinook", "single.lng.Chinook Jargon", "single.lng.Chipewyan", "single.lng.Chippewa", "single.lng.Chiquihuitlán Mazatec", "single.lng.Chitimacha", "single.lng.Chiwere", "single.lng.Choctaw", "single.lng.Chokwe", "single.lng.Ch’ol", "single.lng.Chorti", "single.lng.Chrau", "single.lng.Chru", "single.lng.Chukchansi", "single.lng.Chukchi", "single.lng.Chuukese", "single.lng.Chuvash", "single.lng.Cia-Cia", "single.lng.Cimbrian", "single.lng.Cocopah", "single.lng.Coeur d'Alene", "single.lng.Cofán", "single.lng.Comanche", "single.lng.Comorian", "single.lng.Comox", "single.lng.Candoshi-Shapra", "single.lng.Coptic", "single.lng.Cora", "single.lng.Cornish", "single.lng.Corsican", "single.lng.Cree", "single.lng.Creek", "single.lng.Crimean Tatar", "single.lng.Croatian", "single.lng.Crow", "single.lng.Cubeo", "single.lng.Cuyonon", "single.lng.Czech", "single.lng.Dagaare", "single.lng.Dagbani", "single.lng.Dakota", "single.lng.Dalmatian", "single.lng.Danish", "single.lng.Dananshan Miao", "single.lng.Dargwa", "single.lng.Dari", "single.lng.Daur", "single.lng.Dawan", "single.lng.Daza", "single.lng.Deg Xinag", "single.lng.Dehong Dai", "single.lng.Dane-zaa (Beaver)", "single.lng.Dena’ina", "single.lng.Dengebu", "single.lng.Dhao", "single.lng.Dhivehi", "single.lng.Dholuo", "single.lng.Digaro Mishmi", "single.lng.Dinka", "single.lng.Dioula", "single.lng.Ditidaht", "single.lng.Dizin", "single.lng.Dogri", "single.lng.Dogrib (Tłı̨chǫ)", "single.lng.Dolgan", "single.lng.Domari", "single.lng.Dongotono", "single.lng.Dongxiang / Santa", "single.lng.Drehu", "single.lng.Duala", "single.lng.Dungan", "single.lng.Dupaningan", "single.lng.Duri", "single.lng.Dusun", "single.lng.Dutch", "single.lng.Dzongkha (Bhutanese)", "single.lng.Edo", "single.lng.Efik", "single.lng.Elfdalian", "single.lng.Elamite", "single.lng.Emilian-Romagnol", "single.lng.Ende-Li'o", "single.lng.English", "single.lng.Enets", "single.lng.Enindhilyagwa", "single.lng.Erzya", "single.lng.Esperanto", "single.lng.Estonian", "single.lng.Etruscan", "single.lng.Even", "single.lng.Evenki", "single.lng.Ewe", "single.lng.Ewondo", "single.lng.Extremaduran", "single.lng.Eyak", "single.lng.Fala", "single.lng.Fanagalo", "single.lng.Fang", "single.lng.Farsi (Persian)", "single.lng.Faroese", "single.lng.Fiji Hindi", "single.lng.Fijian", "single.lng.Finnish", "single.lng.Flemish", "single.lng.Folkspraak", "single.lng.Fon", "single.lng.Fox", "single.lng.Franco-Provençal", "single.lng.French", "single.lng.French Guianese Creole", "single.lng.Frisian", "single.lng.Friulian", "single.lng.Fula(ni)", "single.lng.Fur", "single.lng.Futunan", "single.lng.Fuzhounese", "single.lng.Ga", "single.lng.Gadaba", "single.lng.Gagauz", "single.lng.Galician", "single.lng.Gallo", "single.lng.Galoli", "single.lng.Gamilaraay", "single.lng.Gan", "single.lng.Ganda", "single.lng.Gandhari", "single.lng.Garhwali", "single.lng.Garifuna", "single.lng.Garo", "single.lng.Gaulish", "single.lng.Gawwada", "single.lng.Ge'ez", "single.lng.Genoese", "single.lng.Georgian", "single.lng.German", "single.lng.Gilaki", "single.lng.Gitxsan", "single.lng.Godoberi", "single.lng.Gondi", "single.lng.Gonja", "single.lng.Gooniyandi", "single.lng.Gothic", "single.lng.Gottscheerish", "single.lng.Goudu", "single.lng.Greek", "single.lng.Greenlandic", "single.lng.Griko", "single.lng.Guadeloupean Creole", "single.lng.Guambiano", "single.lng.Guanche", "single.lng.Guanano", "single.lng.Guarani", "single.lng.Guaymí", "single.lng.Guernésiais", "single.lng.Gugadja/Kukatja", "single.lng.Guinea-Bissau Creole", "single.lng.Gujarati", "single.lng.Gwere", "single.lng.Gwich’in", "single.lng.Hadhramautic", "single.lng.Haida", "single.lng.Haisla", "single.lng.Haitian Creole", "single.lng.Hajong", "single.lng.Hakka", "single.lng.Halkomelem", "single.lng.Hän", "single.lng.Hani", "single.lng.Hanuno'o", "single.lng.Harari", "single.lng.Hausa", "single.lng.Hawaiian", "single.lng.Hazaragi", "single.lng.Hebrew", "single.lng.Heiltsuk", "single.lng.Herero", "single.lng.Hidatsa", "single.lng.Hiligaynon", "single.lng.Himyaritic", "single.lng.Hindi", "single.lng.Hinukh", "single.lng.Hittite", "single.lng.Hixkaryana", "single.lng.Hmar", "single.lng.Hmong", "single.lng.Hmong Dau", "single.lng.Hmong Njau", "single.lng.Hmu", "single.lng.Ho", "single.lng.Hoava", "single.lng.Hopi", "single.lng.Ho-Chunk", "single.lng.Hsihsia", "single.lng.Huambisa", "single.lng.Huasteco", "single.lng.Huichol", "single.lng.Hungarian", "single.lng.Hunsrik", "single.lng.Hunzib", "single.lng.Hupa", "single.lng.Huron", "single.lng.Iban", "single.lng.Itbayat", "single.lng.Iberian", "single.lng.Ibibio", "single.lng.Icelandic", "single.lng.Ido", "single.lng.Idu Mishmi", "single.lng.Ifugao", "single.lng.Igbo", "single.lng.Ikizu", "single.lng.Iloko", "single.lng.Inari Saami", "single.lng.Indonesian", "single.lng.Ingrian", "single.lng.Ingush", "single.lng.Inor", "single.lng.Interglossa", "single.lng.Interlingua", "single.lng.Interslavic", "single.lng.Inuktitut", "single.lng.Iñupiaq", "single.lng.Irish", "single.lng.Ishkashimi", "single.lng.Isnag", "single.lng.Istriot", "single.lng.Italian", "single.lng.Itelmen", "single.lng.Iu Mien", "single.lng.Ivatan", "single.lng.Ivilyuat / Cahuilla", "single.lng.Ixil", "single.lng.Jamaican", "single.lng.Jaminjung", "single.lng.Japanese", "single.lng.Jaqaru", "single.lng.Jarai", "single.lng.Jatapu", "single.lng.Javanese", "single.lng.Jeju", "single.lng.Jèrriais (Jersey Norman French)", "single.lng.Jewish Neo-Aramaic", "single.lng.Jicarilla", "single.lng.Jingulu", "single.lng.Jingpho", "single.lng.Jita", "single.lng.Jola-Fonyi", "single.lng.Jru'", "single.lng.Judeo-Arabic", "single.lng.Juǀʼhoan", "single.lng.Juhuri", "single.lng.Jur Modo", "single.lng.Kabardian", "single.lng.Kabyle", "single.lng.Kadazandusun", "single.lng.Kadugli", "single.lng.Kagayanen", "single.lng.Kaingang", "single.lng.Kaiwá", "single.lng.Kakabai", "single.lng.Kala Lagaw Ya", "single.lng.Kalmyk", "single.lng.Kam", "single.lng.Kambari", "single.lng.Kamda", "single.lng.Kammara", "single.lng.Kanasi", "single.lng.Kanga", "single.lng.Kaninuwa", "single.lng.Kankanaey", "single.lng.Kannada", "single.lng.Kanuri", "single.lng.Kapampangan", "single.lng.Kapingamarangi", "single.lng.Kaqchikel", "single.lng.Karaim", "single.lng.Karakalpak", "single.lng.Karamojong", "single.lng.Karata", "single.lng.Karbi", "single.lng.Karelian", "single.lng.Karen", "single.lng.Karuk", "single.lng.Kashaya", "single.lng.Kashibo", "single.lng.Kashinawa", "single.lng.Kashmiri", "single.lng.Kashubian", "single.lng.Kaurna", "single.lng.Kawaiisu", "single.lng.Kayah Li", "single.lng.Kazakh", "single.lng.Keiga", "single.lng.Kekchi", "single.lng.Keliko", "single.lng.Kerinci", "single.lng.Ket", "single.lng.Khakas", "single.lng.Khanty", "single.lng.Khasi", "single.lng.Khinalug", "single.lng.Khitan", "single.lng.Khmer", "single.lng.Khoekhoe", "single.lng.Khorasani Turkic", "single.lng.Khowar", "single.lng.Khufi", "single.lng.Khwarshi", "single.lng.Ki'che'", "single.lng.Kichwa", "single.lng.Kickapoo", "single.lng.Kikuyu", "single.lng.Kinaray-a", "single.lng.Kinyarwanda", "single.lng.Kildin Sámi", "single.lng.Kiribati", "single.lng.Kirundi", "single.lng.Kituba", "single.lng.Klallam", "single.lng.Klamath", "single.lng.Koasati", "single.lng.Kodava", "single.lng.Kolam", "single.lng.Kom", "single.lng.Komi", "single.lng.Komo", "single.lng.Konda-Dora", "single.lng.Kongo", "single.lng.Konjo", "single.lng.Konkani", "single.lng.Korean", "single.lng.Koryak", "single.lng.Koti", "single.lng.Kotia", "single.lng.Kove", "single.lng.Koya", "single.lng.Koyukon", "single.lng.Kpelle", "single.lng.Kri", "single.lng.Krongo", "single.lng.Krymchak", "single.lng.Kryts", "single.lng.Kubachi", "single.lng.Kufa", "single.lng.Kumyk", "single.lng.Kuna", "single.lng.Kuot", "single.lng.Kupia", "single.lng.Kurdish", "single.lng.Kurti", "single.lng.Kurukh", "single.lng.Kutchi", "single.lng.Kven", "single.lng.Kwak̓wala", "single.lng.Kyrgyz", "single.lng.Laalaa", "single.lng.Ladakhi", "single.lng.Ladin", "single.lng.Ladino", "single.lng.Lahu", "single.lng.Lak", "single.lng.Lakota", "single.lng.Lampung", "single.lng.Lanna", "single.lng.Lao", "single.lng.Latgalian", "single.lng.Latin", "single.lng.Latino sine Flexione", "single.lng.Latvian", "single.lng.Laz", "single.lng.Ledo Kaili", "single.lng.Lepcha", "single.lng.Lepontic", "single.lng.Lezgi", "single.lng.Lingua Franca Nova", "single.lng.Limba", "single.lng.Limbu", "single.lng.Limburgish", "single.lng.Lingala", "single.lng.Lisu", "single.lng.Lithuanian", "single.lng.Livonian", "single.lng.Llanito", "single.lng.Lojban", "single.lng.Loma", "single.lng.Lombard", "single.lng.Lote", "single.lng.Lotuko", "single.lng.Low German", "single.lng.Lokoya", "single.lng.Lopit", "single.lng.Lozi", "single.lng.Ludic", "single.lng.Luganda", "single.lng.Lugbara", "single.lng.Luiseño", "single.lng.Lule Sámi", "single.lng.Lumun", "single.lng.Luobohe Miao", "single.lng.Luri", "single.lng.Lushootseed", "single.lng.Lusitanian", "single.lng.Luwian", "single.lng.Luxembourgish", "single.lng.Lycian", "single.lng.Lydian", "single.lng.Maasai", "single.lng.Macedonian", "single.lng.Machiguenga", "single.lng.Ma'di", "single.lng.Madurese", "single.lng.Magahi", "single.lng.Maithili", "single.lng.Makah", "single.lng.Makasarese", "single.lng.Makhuwa", "single.lng.Makonde", "single.lng.Malagasy", "single.lng.Malay", "single.lng.Malayalam", "single.lng.Mali", "single.lng.Maltese", "single.lng.Maldivian", "single.lng.Mam", "single.lng.Manado Malay", "single.lng.Manchu", "single.lng.Mandaic", "single.lng.Mandan", "single.lng.Mandar", "single.lng.Mandarin Chinese", "single.lng.Mandinka", "single.lng.Manggarainese", "single.lng.Maninka", "single.lng.Manipuri", "single.lng.Mankanya", "single.lng.Mansi", "single.lng.Manx", "single.lng.Maore", "single.lng.Māori", "single.lng.Mapuche", "single.lng.Maranao", "single.lng.Marathi", "single.lng.Marba", "single.lng.Mari", "single.lng.Marma", "single.lng.Marshallese", "single.lng.Marwari", "single.lng.Masbateño", "single.lng.Mashan Miao", "single.lng.Maskelynes", "single.lng.Matigsalug", "single.lng.Mato", "single.lng.Mauritian Creole", "single.lng.Massachusett", "single.lng.Mayan", "single.lng.Mazahua", "single.lng.Mazandarani", "single.lng.Mazatec", "single.lng.Mbula", "single.lng.Mbum", "single.lng.Megleno-Romanian", "single.lng.Mende", "single.lng.Menominee", "single.lng.Meriam Mir", "single.lng.Meroïtic", "single.lng.Mescalero-Chiricahua", "single.lng.Miami", "single.lng.Michif", "single.lng.Mikasuki", "single.lng.Mi'kmaq", "single.lng.Miju", "single.lng.Mele-Fila", "single.lng.Minangkabau", "single.lng.Mingrelian", "single.lng.Mirandese", "single.lng.Miskito", "single.lng.Mixtec", "single.lng.Mizo", "single.lng.Mòcheno", "single.lng.Modi", "single.lng.Mohawk", "single.lng.Mohegan", "single.lng.Moksha", "single.lng.Moldovan", "single.lng.Mon", "single.lng.Monégasque", "single.lng.Mongolian", "single.lng.Monguor", "single.lng.Montagnais", "single.lng.Montenegrin", "single.lng.Moriori", "single.lng.Morokodo", "single.lng.Moronene", "single.lng.Moru", "single.lng.Mossi", "single.lng.Motu", "single.lng.Mro", "single.lng.Mualang", "single.lng.Mukha Dora", "single.lng.Muna", "single.lng.Mundari", "single.lng.Munsee", "single.lng.Muong", "single.lng.Murrinh-Patha", "single.lng.Murui Huitoto", "single.lng.Mutsun", "single.lng.Mwangwego", "single.lng.Mwotlap", "single.lng.Nabataean", "single.lng.Nagamese", "single.lng.Nahuatl", "single.lng.Nama", "single.lng.Nanai", "single.lng.Nanti", "single.lng.Narim", "single.lng.Naskapi", "single.lng.Natchez", "single.lng.Nauruan", "single.lng.Navajo", "single.lng.Naxi", "single.lng.Negidal", "single.lng.Ndebele (Northern - South Africa)", "single.lng.Ndebele (Northern - Zimbabwe)", "single.lng.Ndebele (Southern)", "single.lng.Ndjuká", "single.lng.Ndrumbea", "single.lng.Neapolitan", "single.lng.Nenets", "single.lng.Neo-Mandaic", "single.lng.Nepal Bhasa / Newari", "single.lng.Nepali", "single.lng.Nganasan", "single.lng.Ngiyambaa", "single.lng.Nheengatu", "single.lng.Nias", "single.lng.Nisga’a", "single.lng.Niuafoʻou", "single.lng.Niuean", "single.lng.Nǀuu", "single.lng.Nivkh", "single.lng.Nkore", "single.lng.Nobiin", "single.lng.Nogai", "single.lng.Nomatsiguenga", "single.lng.Noon", "single.lng.Noongar", "single.lng.Norfuk", "single.lng.Norn", "single.lng.Norwegian", "single.lng.Novial", "single.lng.North Frisian", "single.lng.Northern Paiute", "single.lng.Northern Pomo", "single.lng.Northern Sámi", "single.lng.Northern Ndebele", "single.lng.Northern Sotho", "single.lng.Northern Thai (Kam Mu'ang)", "single.lng.Nuer", "single.lng.Nunggubuyu", "single.lng.Nupe", "single.lng.Nushu", "single.lng.Nuu-Chah-Nulth (Nootka)", "single.lng.Nuxalk", "single.lng.Nǁng", "single.lng.Nyole", "single.lng.Occidental", "single.lng.Occitan", "single.lng.Odia", "single.lng.Ojibwe", "single.lng.Oji-Cree", "single.lng.Okinawan", "single.lng.Old Church Slavonic", "single.lng.Old English", "single.lng.Old Norse", "single.lng.Old Nubian", "single.lng.Olu'bo", "single.lng.Old Turkic", "single.lng.Omaha", "single.lng.Oneida", "single.lng.Onondaga", "single.lng.O'odham", "single.lng.Oowekyala", "single.lng.Orkhon", "single.lng.Oroch", "single.lng.Orok", "single.lng.Oromo", "single.lng.Oroqen", "single.lng.Oroshor", "single.lng.Osage", "single.lng.Oshiwambo", "single.lng.Ossetian", "single.lng.Otomi", "single.lng.Ottawa", "single.lng.Paakantyi", "single.lng.Paama", "single.lng.Páez", "single.lng.Paicî", "single.lng.Paiwan", "single.lng.Palauan", "single.lng.Palenquero", "single.lng.Pali", "single.lng.Palula", "single.lng.Pangasinan", "single.lng.Papiamento", "single.lng.Paraujuano", "single.lng.Parthian", "single.lng.Pashto", "single.lng.Pawnee", "single.lng.Pennsylvania German", "single.lng.Persian (Farsi)", "single.lng.Phoenician", "single.lng.Phrygian", "single.lng.Picard", "single.lng.Piedmontese", "single.lng.Pijin", "single.lng.Pinyin", "single.lng.Pipil", "single.lng.Pirahã", "single.lng.Pite Sámi", "single.lng.Pitjantjatjara", "single.lng.Pochuri", "single.lng.Pohnpeian", "single.lng.Polish", "single.lng.Pontic Greek", "single.lng.Pomo (Central)", "single.lng.Pomo (Eastern)", "single.lng.Pomo (Southern)", "single.lng.Portuguese", "single.lng.Potawatomi", "single.lng.Punjabi", "single.lng.Purepecha", "single.lng.Puxian", "single.lng.Q’anjob’al", "single.lng.Qashqai", "single.lng.Qatabanic", "single.lng.Q'eqchi'", "single.lng.Qo Xiong", "single.lng.Quapaw", "single.lng.Quechua", "single.lng.Rade", "single.lng.Raga", "single.lng.Rajasthani", "single.lng.Rana", "single.lng.Ranjana", "single.lng.Rapa Nui", "single.lng.Rarotongan", "single.lng.Redjang", "single.lng.Rennellese", "single.lng.Réunion Creole", "single.lng.Ripuarian", "single.lng.Rohingya", "single.lng.Romani", "single.lng.Romanian", "single.lng.Romániço", "single.lng.Romansh", "single.lng.Ronga", "single.lng.Rotokas", "single.lng.Rotuman", "single.lng.Roviana", "single.lng.Rushani", "single.lng.Russian", "single.lng.Rusyn", "single.lng.Rutul", "single.lng.Saami/Sámi", "single.lng.Saanich", "single.lng.Saaroa", "single.lng.Sabaean", "single.lng.Sabaic", "single.lng.Safen", "single.lng.Sakao", "single.lng.Salar", "single.lng.Saliba", "single.lng.Salish", "single.lng.Samaritan", "single.lng.Sambal", "single.lng.Samoan", "single.lng.Sanglechi", "single.lng.Sango", "single.lng.Sankethi", "single.lng.Sanskrit", "single.lng.Santa / Dongxiang", "single.lng.Santali", "single.lng.Saraiki", "single.lng.Sarikoli", "single.lng.Saramaccan", "single.lng.Sarcee", "single.lng.Sardinian", "single.lng.Sarnámi Hindustani", "single.lng.Sasak", "single.lng.Saterland Frisian", "single.lng.Satawalese", "single.lng.Savara", "single.lng.Savosavo", "single.lng.Scots", "single.lng.Scottish Gaelic", "single.lng.Sekani", "single.lng.Selkup", "single.lng.Sena", "single.lng.Seneca", "single.lng.Serbian", "single.lng.Serer", "single.lng.Seri", "single.lng.Serrano", "single.lng.Seychelles Creole", "single.lng.Southern Sotho", "single.lng.Shabaki", "single.lng.Shan", "single.lng.Shanghainese", "single.lng.Sharda", "single.lng.Shavante", "single.lng.Shawnee", "single.lng.Shetland(ic)", "single.lng.Shilluk", "single.lng.Shina", "single.lng.Shipibo", "single.lng.Shona", "single.lng.Shor", "single.lng.Shoshone", "single.lng.Shughni", "single.lng.Siar", "single.lng.Sicilian", "single.lng.Siddham", "single.lng.Sierra Leonean Creole", "single.lng.Sikaiana", "single.lng.Sikkimese", "single.lng.Silesian", "single.lng.Sindhi", "single.lng.Sinhala", "single.lng.Sio", "single.lng.Sioux", "single.lng.Silt'e", "single.lng.Skolt Sámi", "single.lng.Slavey (North)", "single.lng.Slavey (South)", "single.lng.Slovak", "single.lng.Slovene", "single.lng.Slovio", "single.lng.Soga", "single.lng.Sogdian", "single.lng.Solresol", "single.lng.Somali", "single.lng.Soninke", "single.lng.Sora", "single.lng.Sorbian", "single.lng.Sourashtra", "single.lng.Southern Ndebele", "single.lng.Southern Sotho (Sesotho)", "single.lng.Southern Sámi", "single.lng.Southern Tiwa", "single.lng.Soyot", "single.lng.Spanish", "single.lng.Sranan", "single.lng.Saint Lucian Creole", "single.lng.Stellingwarfs", "single.lng.Stoney", "single.lng.Sugali", "single.lng.Sui", "single.lng.Sumbawa", "single.lng.Sumerian", "single.lng.Sundanese", "single.lng.Sunuwar", "single.lng.Supyire", "single.lng.Susu", "single.lng.Svan", "single.lng.Swahili", "single.lng.Swati/Swazi", "single.lng.Swedish", "single.lng.Swiss German", "single.lng.Sylheti", "single.lng.Syriac", "single.lng.Suriyani Malayalam", "single.lng.Tabassaran", "single.lng.Tagabawà", "single.lng.Tagalog", "single.lng.Tagbanwa", "single.lng.Tahitian", "single.lng.Tai Dam", "single.lng.Tai Lue", "single.lng.Taíno-Borikenaíki", "single.lng.Taiwanese", "single.lng.Tajik", "single.lng.Talysh", "single.lng.Tami", "single.lng.Tamahaq", "single.lng.Tamasheq", "single.lng.Tamazight", "single.lng.Tamil", "single.lng.Tampuan", "single.lng.Tangkhul Naga", "single.lng.Tao (Yami)", "single.lng.Taos", "single.lng.Tarahumara", "single.lng.Tariana", "single.lng.Tartessian", "single.lng.Tat", "single.lng.Tatar", "single.lng.Tausūg", "single.lng.Tboli", "single.lng.Teiwa", "single.lng.Teleut", "single.lng.Telugu", "single.lng.Teochew", "single.lng.Temne (KʌThemnɛ)", "single.lng.Tepehuán", "single.lng.Ter Sámi", "single.lng.Tetum", "single.lng.Thai", "single.lng.Tibetan", "single.lng.Ticuna", "single.lng.Tigre", "single.lng.Tigrinya", "single.lng.Tii", "single.lng.Tikopia", "single.lng.Timbisha", "single.lng.Tindi", "single.lng.Tiriyó", "single.lng.Tiwi", "single.lng.Tłı̨chǫ (Dogrib)", "single.lng.Tlingit", "single.lng.Toba Qom", "single.lng.Tocharian", "single.lng.Tocho", "single.lng.Toda", "single.lng.Tofa", "single.lng.Tojolabal", "single.lng.Tok Pisin", "single.lng.Tokelauan", "single.lng.Tolaki", "single.lng.Tolowa", "single.lng.Tongan", "single.lng.Tongva", "single.lng.Toposa", "single.lng.Toqabaqita", "single.lng.Toraja-Sa'dan", "single.lng.Torres-Strait Creole", "single.lng.Torwali", "single.lng.Tshangla", "single.lng.Tsakhur", "single.lng.Tsakonian", "single.lng.Tsez", "single.lng.Tshiluba", "single.lng.Tsimshian", "single.lng.Tsonga", "single.lng.Tsotsil", "single.lng.Tswa", "single.lng.Tswana", "single.lng.Tuareg", "single.lng.Tucano", "single.lng.Tulishi", "single.lng.Tulu", "single.lng.Tumbuka", "single.lng.Tunica", "single.lng.Turkish", "single.lng.Turkmen", "single.lng.Turoyo", "single.lng.Tuscarora", "single.lng.Tut", "single.lng.Tutchone", "single.lng.Tutelo", "single.lng.Tuvaluan", "single.lng.Tuvan", "single.lng.Twi", "single.lng.Tzeltal", "single.lng.Tz'utujil", "single.lng.Ubykh", "single.lng.Udege", "single.lng.Udmurt", "single.lng.Ugaritic", "single.lng.Ukrainian", "single.lng.Ulch", "single.lng.Umbundu", "single.lng.Ume Sámi", "single.lng.Unami (Lenape)", "single.lng.Urarina", "single.lng.Urdu", "single.lng.Urum", "single.lng.Uyghur", "single.lng.Uzbek", "single.lng.Vai", "single.lng.Värmlandic", "single.lng.Venda", "single.lng.Venetian", "single.lng.Veps", "single.lng.Vietnamese", "single.lng.Volapük", "single.lng.Võro", "single.lng.Votic", "single.lng.Wa", "single.lng.Wa'di", "single.lng.Wakhi", "single.lng.Wallisian", "single.lng.Walloon", "single.lng.Wandamen", "single.lng.Wantoat", "single.lng.Waray-Waray", "single.lng.Wardaman", "single.lng.Warlpiri", "single.lng.Washo", "single.lng.Wayuu", "single.lng.Welsh", "single.lng.Wemba Wemba", "single.lng.Wendat", "single.lng.Western Neo-Aramaic", "single.lng.West Frisian", "single.lng.West Polesian", "single.lng.Western Rote", "single.lng.Wichita", "single.lng.Wik-Mungkan", "single.lng.Winnebago", "single.lng.Wintu", "single.lng.Wiradjuri", "single.lng.Wolaytta", "single.lng.Wolof", "single.lng.Wenzhounese", "single.lng.Wu Chinese", "single.lng.Wymysorys", "single.lng.Xamtanga", "single.lng.Xârâcùù", "single.lng.Xhosa", "single.lng.Xavante", "single.lng.Xhosa", "single.lng.Xiang", "single.lng.Xibe", "single.lng.Xixia", "single.lng.Yabem", "single.lng.Yaghnobi", "single.lng.Yagua", "single.lng.Yakut (Sakha)", "single.lng.Yami (Tao)", "single.lng.Yaminawa", "single.lng.Yao", "single.lng.Yapese", "single.lng.Yaqui", "single.lng.Yazghulami", "single.lng.Yemba", "single.lng.Yevanic", "single.lng.Yerukula", "single.lng.Yi", "single.lng.Yiddish", "single.lng.Yimchungrü", "single.lng.Yindjibarndi", "single.lng.Yolngu", "single.lng.Yoruba", "single.lng.Yucatec Maya", "single.lng.Yue Chinese", "single.lng.Yuchi/Euchee", "single.lng.Yucuna", "single.lng.Yukaghir", "single.lng.Yup'ik (Central Alaskan)", "single.lng.Yupik (Central Siberian)", "single.lng.Yurok", "single.lng.Zaghawa", "single.lng.Záparo", "single.lng.Zapotec", "single.lng.Zarma", "single.lng.Zazaki", "single.lng.Zeelandic", "single.lng.Zhuang", "single.lng.Zigula", "single.lng.Zinza", "single.lng.Zou", "single.lng.Zulu"]
+, 
+{
+  "name": "single.lng.Abaza",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Abellen",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Abenaki",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Abkhaz",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Abui",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Achang",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Acehnese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Acheron",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Achi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Acholi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Achuar-Shiwiar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Achumawi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Adaizan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Adamaua Fulfulde",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Adyghe",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Adzera",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Afaan Oromo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Afar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Afrikaans",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Aghul",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Aguacateco",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Aguaruna",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.A-Hmao",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ahom",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ahtna",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ainu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Aja",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ajië",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Akan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Akhvakh",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Akkadian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Aklan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Akurio",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Alabama",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Albanian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Aleut",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Algonquin",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Alsatian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Altay",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Alur",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Alutiiq",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Amahuaca",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Amarakaeri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Amarasi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Amele",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Amharic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Amis",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Andi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Andoa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Angami",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Anglo-Saxon",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Anuki",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Anutan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Apache",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Apma",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arabela",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arabic (Algerian)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arabic (Cypriot)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arabic (Egyptian)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arabic (Lebanese)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arabic (Modern Standard)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arabic (Moroccan)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arabic (Syrian)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arabic (Tunisian)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Aragonese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arakanese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Araki",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Aramaic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Aranese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arapaho",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arawak",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arbëresh",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Archi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Are",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Argobba",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arikara",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Aringa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Armenian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Aromanian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arrernte",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Arvanitic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Asháninka",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ashéninka",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Assamese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Assiniboine",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Assyrian / Neo-Assyrian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Asturian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Atayal",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Atikamekw",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Atong",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.’Auhelawa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Avar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Avestan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Avokaya",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Awadhi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Awara",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Awing",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Awngi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Aymara",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Äynu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Azerbaijani",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Babine-Witsuwit'en",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Badaga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bagatha",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bagvalal",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bai",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Baka",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Balangao",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Balinese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Balkar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Balti",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Baluchi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bambara",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bamum",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bandial",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Baniwa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bantawa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Baoulé",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Barai",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Barbareño",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bari",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bariba",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bartangi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bashkir",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Basque",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bassa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Batak",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Batsbi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bavarian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Beaver",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Beja",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Belarusian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Beli",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bella Coola (Nuxalk)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bemba",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bench",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bengali",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Berber (Tamazight)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Betawi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bezhta",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bhojpuri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Biete",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bikol",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Biloxi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bima",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bislama",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bisu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Blackfoot",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Blagar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Blin",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bodo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bokar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bolinao",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bongo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bontoc",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bora",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bosnian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Botlikh",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Botolan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bouyei",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Breton",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Budukh",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bugis",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Buhid",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Buhutu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bulgarian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bulu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bundjalung",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bunun",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Burmese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Burushaski",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Buryat",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Busa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bushi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Bhutanese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Caddo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Caluyanon",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cambodian (Khmer)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Canaanite",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cantonese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cape Verdean Creole",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Caquinte",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Carian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Carrier",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Casiguran Dumagat Agta",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Catalan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cayuga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cebuano",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Celtiberian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Central Sinama",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chagatai",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chaha",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chaldean Neo-Aramaic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cham",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chamalal",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chambeali",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chamorro",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chang",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cha'palaachi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chatino",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chavacano",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chayahuita",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chechen",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chelkan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cherokee",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cheyenne",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chichewa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chickasaw",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chilcotin",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chinanteco",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chinese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chinook",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chinook Jargon",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chipewyan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chippewa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chiquihuitlán Mazatec",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chitimacha",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chiwere",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Choctaw",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chokwe",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ch’ol",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chorti",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chrau",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chru",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chukchansi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chukchi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chuukese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Chuvash",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cia-Cia",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cimbrian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cocopah",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Coeur d'Alene",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cofán",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Comanche",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Comorian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Comox",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Candoshi-Shapra",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Coptic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cora",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cornish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Corsican",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cree",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Creek",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Crimean Tatar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Croatian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Crow",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cubeo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Cuyonon",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Czech",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dagaare",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dagbani",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dakota",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dalmatian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Danish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dananshan Miao",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dargwa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dari",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Daur",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dawan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Daza",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Deg Xinag",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dehong Dai",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dane-zaa (Beaver)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dena’ina",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dengebu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dhao",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dhivehi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dholuo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Digaro Mishmi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dinka",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dioula",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ditidaht",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dizin",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dogri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dogrib (Tłı̨chǫ)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dolgan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Domari",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dongotono",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dongxiang / Santa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Drehu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Duala",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dungan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dupaningan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Duri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dusun",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dutch",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Dzongkha (Bhutanese)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Edo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Efik",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Elfdalian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Elamite",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Emilian-Romagnol",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ende-Li'o",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.English",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Enets",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Enindhilyagwa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Erzya",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Esperanto",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Estonian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Etruscan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Even",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Evenki",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ewe",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ewondo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Extremaduran",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Eyak",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Fala",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Fanagalo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Fang",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Farsi (Persian)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Faroese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Fiji Hindi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Fijian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Finnish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Flemish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Folkspraak",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Fon",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Fox",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Franco-Provençal",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.French",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.French Guianese Creole",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Frisian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Friulian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Fula(ni)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Fur",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Futunan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Fuzhounese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gadaba",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gagauz",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Galician",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gallo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Galoli",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gamilaraay",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ganda",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gandhari",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Garhwali",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Garifuna",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Garo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gaulish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gawwada",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ge'ez",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Genoese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Georgian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.German",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gilaki",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gitxsan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Godoberi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gondi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gonja",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gooniyandi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gothic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gottscheerish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Goudu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Greek",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Greenlandic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Griko",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Guadeloupean Creole",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Guambiano",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Guanche",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Guanano",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Guarani",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Guaymí",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Guernésiais",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gugadja/Kukatja",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Guinea-Bissau Creole",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gujarati",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gwere",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Gwich’in",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hadhramautic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Haida",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Haisla",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Haitian Creole",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hajong",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hakka",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Halkomelem",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hän",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hani",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hanuno'o",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Harari",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hausa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hawaiian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hazaragi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hebrew",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Heiltsuk",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Herero",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hidatsa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hiligaynon",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Himyaritic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hindi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hinukh",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hittite",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hixkaryana",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hmar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hmong",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hmong Dau",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hmong Njau",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hmu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ho",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hoava",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hopi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ho-Chunk",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hsihsia",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Huambisa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Huasteco",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Huichol",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hungarian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hunsrik",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hunzib",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Hupa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Huron",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Iban",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Itbayat",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Iberian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ibibio",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Icelandic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ido",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Idu Mishmi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ifugao",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Igbo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ikizu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Iloko",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Inari Saami",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Indonesian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ingrian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ingush",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Inor",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Interglossa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Interlingua",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Interslavic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Inuktitut",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Iñupiaq",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Irish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ishkashimi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Isnag",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Istriot",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Italian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Itelmen",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Iu Mien",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ivatan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ivilyuat / Cahuilla",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ixil",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jamaican",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jaminjung",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Japanese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jaqaru",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jarai",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jatapu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Javanese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jeju",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jèrriais (Jersey Norman French)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jewish Neo-Aramaic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jicarilla",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jingulu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jingpho",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jita",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jola-Fonyi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jru'",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Judeo-Arabic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Juǀʼhoan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Juhuri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Jur Modo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kabardian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kabyle",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kadazandusun",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kadugli",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kagayanen",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kaingang",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kaiwá",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kakabai",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kala Lagaw Ya",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kalmyk",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kam",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kambari",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kamda",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kammara",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kanasi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kanga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kaninuwa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kankanaey",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kannada",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kanuri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kapampangan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kapingamarangi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kaqchikel",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Karaim",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Karakalpak",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Karamojong",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Karata",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Karbi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Karelian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Karen",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Karuk",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kashaya",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kashibo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kashinawa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kashmiri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kashubian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kaurna",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kawaiisu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kayah Li",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kazakh",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Keiga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kekchi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Keliko",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kerinci",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ket",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Khakas",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Khanty",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Khasi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Khinalug",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Khitan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Khmer",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Khoekhoe",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Khorasani Turkic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Khowar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Khufi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Khwarshi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ki'che'",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kichwa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kickapoo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kikuyu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kinaray-a",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kinyarwanda",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kildin Sámi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kiribati",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kirundi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kituba",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Klallam",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Klamath",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Koasati",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kodava",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kolam",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kom",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Komi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Komo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Konda-Dora",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kongo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Konjo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Konkani",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Korean",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Koryak",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Koti",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kotia",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kove",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Koya",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Koyukon",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kpelle",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Krongo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Krymchak",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kryts",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kubachi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kufa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kumyk",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kuna",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kuot",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kupia",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kurdish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kurti",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kurukh",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kutchi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kven",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kwak̓wala",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Kyrgyz",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Laalaa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ladakhi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ladin",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ladino",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lahu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lak",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lakota",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lampung",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lanna",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lao",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Latgalian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Latin",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Latino sine Flexione",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Latvian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Laz",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ledo Kaili",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lepcha",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lepontic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lezgi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lingua Franca Nova",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Limba",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Limbu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Limburgish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lingala",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lisu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lithuanian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Livonian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Llanito",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lojban",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Loma",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lombard",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lote",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lotuko",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Low German",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lokoya",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lopit",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lozi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ludic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Luganda",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lugbara",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Luiseño",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lule Sámi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lumun",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Luobohe Miao",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Luri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lushootseed",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lusitanian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Luwian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Luxembourgish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lycian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Lydian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Maasai",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Macedonian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Machiguenga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ma'di",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Madurese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Magahi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Maithili",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Makah",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Makasarese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Makhuwa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Makonde",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Malagasy",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Malay",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Malayalam",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mali",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Maltese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Maldivian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mam",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Manado Malay",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Manchu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mandaic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mandan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mandar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mandarin Chinese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mandinka",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Manggarainese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Maninka",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Manipuri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mankanya",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mansi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Manx",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Maore",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Māori",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mapuche",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Maranao",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Marathi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Marba",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mari",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Marma",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Marshallese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Marwari",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Masbateño",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mashan Miao",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Maskelynes",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Matigsalug",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mato",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mauritian Creole",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Massachusett",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mayan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mazahua",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mazandarani",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mazatec",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mbula",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mbum",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Megleno-Romanian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mende",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Menominee",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Meriam Mir",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Meroïtic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mescalero-Chiricahua",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Miami",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Michif",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mikasuki",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mi'kmaq",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Miju",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mele-Fila",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Minangkabau",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mingrelian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mirandese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Miskito",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mixtec",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mizo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mòcheno",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Modi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mohawk",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mohegan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Moksha",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Moldovan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mon",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Monégasque",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mongolian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Monguor",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Montagnais",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Montenegrin",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Moriori",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Morokodo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Moronene",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Moru",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mossi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Motu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mro",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mualang",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mukha Dora",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Muna",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mundari",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Munsee",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Muong",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Murrinh-Patha",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Murui Huitoto",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mutsun",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mwangwego",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Mwotlap",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nabataean",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nagamese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nahuatl",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nama",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nanai",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nanti",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Narim",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Naskapi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Natchez",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nauruan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Navajo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Naxi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Negidal",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ndebele (Northern - South Africa)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ndebele (Northern - Zimbabwe)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ndebele (Southern)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ndjuká",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ndrumbea",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Neapolitan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nenets",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Neo-Mandaic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nepal Bhasa / Newari",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nepali",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nganasan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ngiyambaa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nheengatu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nias",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nisga’a",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Niuafoʻou",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Niuean",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nǀuu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nivkh",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nkore",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nobiin",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nogai",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nomatsiguenga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Noon",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Noongar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Norfuk",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Norn",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Norwegian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Novial",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.North Frisian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Northern Paiute",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Northern Pomo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Northern Sámi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Northern Ndebele",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Northern Sotho",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Northern Thai (Kam Mu'ang)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nuer",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nunggubuyu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nupe",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nushu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nuu-Chah-Nulth (Nootka)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nuxalk",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nǁng",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Nyole",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Occidental",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Occitan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Odia",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ojibwe",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Oji-Cree",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Okinawan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Old Church Slavonic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Old English",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Old Norse",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Old Nubian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Olu'bo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Old Turkic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Omaha",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Oneida",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Onondaga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.O'odham",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Oowekyala",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Orkhon",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Oroch",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Orok",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Oromo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Oroqen",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Oroshor",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Osage",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Oshiwambo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ossetian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Otomi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ottawa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Paakantyi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Paama",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Páez",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Paicî",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Paiwan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Palauan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Palenquero",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pali",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Palula",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pangasinan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Papiamento",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Paraujuano",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Parthian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pashto",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pawnee",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pennsylvania German",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Persian (Farsi)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Phoenician",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Phrygian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Picard",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Piedmontese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pijin",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pinyin",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pipil",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pirahã",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pite Sámi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pitjantjatjara",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pochuri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pohnpeian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Polish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pontic Greek",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pomo (Central)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pomo (Eastern)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Pomo (Southern)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Portuguese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Potawatomi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Punjabi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Purepecha",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Puxian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Q’anjob’al",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Qashqai",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Qatabanic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Q'eqchi'",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Qo Xiong",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Quapaw",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Quechua",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Rade",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Raga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Rajasthani",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Rana",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ranjana",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Rapa Nui",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Rarotongan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Redjang",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Rennellese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Réunion Creole",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ripuarian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Rohingya",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Romani",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Romanian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Romániço",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Romansh",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ronga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Rotokas",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Rotuman",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Roviana",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Rushani",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Russian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Rusyn",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Rutul",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Saami/Sámi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Saanich",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Saaroa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sabaean",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sabaic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Safen",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sakao",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Salar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Saliba",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Salish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Samaritan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sambal",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Samoan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sanglechi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sango",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sankethi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sanskrit",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Santa / Dongxiang",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Santali",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Saraiki",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sarikoli",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Saramaccan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sarcee",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sardinian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sarnámi Hindustani",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sasak",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Saterland Frisian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Satawalese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Savara",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Savosavo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Scots",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Scottish Gaelic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sekani",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Selkup",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sena",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Seneca",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Serbian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Serer",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Seri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Serrano",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Seychelles Creole",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Southern Sotho",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shabaki",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shanghainese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sharda",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shavante",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shawnee",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shetland(ic)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shilluk",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shina",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shipibo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shona",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shor",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shoshone",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Shughni",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Siar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sicilian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Siddham",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sierra Leonean Creole",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sikaiana",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sikkimese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Silesian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sindhi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sinhala",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sio",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sioux",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Silt'e",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Skolt Sámi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Slavey (North)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Slavey (South)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Slovak",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Slovene",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Slovio",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Soga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sogdian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Solresol",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Somali",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Soninke",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sora",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sorbian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sourashtra",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Southern Ndebele",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Southern Sotho (Sesotho)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Southern Sámi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Southern Tiwa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Soyot",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Spanish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sranan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Saint Lucian Creole",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Stellingwarfs",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Stoney",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sugali",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sui",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sumbawa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sumerian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sundanese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sunuwar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Supyire",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Susu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Svan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Swahili",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Swati/Swazi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Swedish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Swiss German",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Sylheti",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Syriac",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Suriyani Malayalam",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tabassaran",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tagabawà",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tagalog",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tagbanwa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tahitian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tai Dam",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tai Lue",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Taíno-Borikenaíki",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Taiwanese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tajik",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Talysh",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tami",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tamahaq",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tamasheq",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tamazight",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tamil",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tampuan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tangkhul Naga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tao (Yami)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Taos",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tarahumara",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tariana",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tartessian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tat",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tatar",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tausūg",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tboli",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Teiwa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Teleut",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Telugu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Teochew",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Temne (KʌThemnɛ)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tepehuán",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ter Sámi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tetum",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Thai",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tibetan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ticuna",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tigre",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tigrinya",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tii",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tikopia",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Timbisha",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tindi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tiriyó",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tiwi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tłı̨chǫ (Dogrib)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tlingit",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Toba Qom",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tocharian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tocho",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Toda",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tofa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tojolabal",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tok Pisin",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tokelauan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tolaki",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tolowa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tongan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tongva",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Toposa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Toqabaqita",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Toraja-Sa'dan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Torres-Strait Creole",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Torwali",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tshangla",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tsakhur",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tsakonian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tsez",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tshiluba",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tsimshian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tsonga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tsotsil",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tswa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tswana",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tuareg",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tucano",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tulishi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tulu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tumbuka",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tunica",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Turkish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Turkmen",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Turoyo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tuscarora",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tut",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tutchone",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tutelo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tuvaluan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tuvan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Twi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tzeltal",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Tz'utujil",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ubykh",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Udege",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Udmurt",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ugaritic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ukrainian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ulch",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Umbundu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Ume Sámi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Unami (Lenape)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Urarina",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Urdu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Urum",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Uyghur",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Uzbek",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Vai",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Värmlandic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Venda",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Venetian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Veps",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Vietnamese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Volapük",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Võro",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Votic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wa'di",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wakhi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wallisian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Walloon",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wandamen",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wantoat",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Waray-Waray",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wardaman",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Warlpiri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Washo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wayuu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Welsh",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wemba Wemba",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wendat",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Western Neo-Aramaic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.West Frisian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.West Polesian",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Western Rote",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wichita",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wik-Mungkan",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Winnebago",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wintu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wiradjuri",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wolaytta",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wolof",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wenzhounese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wu Chinese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Wymysorys",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Xamtanga",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Xârâcùù",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Xhosa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Xavante",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Xhosa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Xiang",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Xibe",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Xixia",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yabem",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yaghnobi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yagua",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yakut (Sakha)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yami (Tao)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yaminawa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yao",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yapese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yaqui",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yazghulami",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yemba",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yevanic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yerukula",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yiddish",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yimchungrü",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yindjibarndi",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yolngu",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yoruba",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yucatec Maya",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yue Chinese",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yuchi/Euchee",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yucuna",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yukaghir",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yup'ik (Central Alaskan)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yupik (Central Siberian)",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Yurok",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Zaghawa",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Záparo",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Zapotec",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Zarma",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Zazaki",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Zeelandic",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Zhuang",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Zigula",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Zinza",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Zou",
+  "imports": ["single.master.language"]
+}, {
+  "name": "single.lng.Zulu",
+  "imports": ["single.master.language"]
+}, 
+{
+  "name": "single.wr.Abaza",
+  "imports": ["single.master.writing","single.wr.Arabic"]
+},{
+  "name": "single.lng.Arabic",
+  "imports": ["single.wr.Arabic"]
+}, {
+  "name": "single.master.writing",
+  "imports": ["single.lng.Arabic"]
+}]

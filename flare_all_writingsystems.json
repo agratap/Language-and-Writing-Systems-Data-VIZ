@@ -1,0 +1,834 @@
+[
+{
+  "name": "single.wr.Adlam",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Ahom",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Akkadian Cuneiform",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Ancient Berber",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Ancient Egyptian (Demotic)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Ancient Egyptian (Hieratic)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Ancient Egyptian (Hieroglyphs)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Anglo-Saxon Runes (Futhorc)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Archaic Latin",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Arabic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Armenian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Avestan",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Avoiuli",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Badaga",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Bagatha",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Balinese",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Bamum",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Bassa (Vah)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Batak",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Baybayin (Tagalog)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Beitha Kukju",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Bengali",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Benjamin Franklin's Phonetic Alphabet",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Bilang-bilang",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Bima",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Blackfoot",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Blissymbolics",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Borama / Gadabuursi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Brahmi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Braille",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Buhid",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Burmese",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Carian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Caroline Island Script",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Carolingian Minuscule",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Carpathian Basin Rovas",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Carrier",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Caucasian Albanian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Celtiberian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Chữ-nôm",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Chakma",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Cham",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Cherokee",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Chinese",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Chinuk pipa",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Classical Latin alphabet",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Coorgi-Cox",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Coptic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Cree",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Cuneiform",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Cypriot",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Cyrillic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Dalecarlian runes",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Dehong Dai",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Deseret",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Devanagari",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Dialectal Paleotype",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Ditema",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Dives Akuru",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Elamite",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Elbasan",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Elder Futhark",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Eskayan",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Ethiopic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Etruscan",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Evēla Akuru",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Faliscan",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Fraktur",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Fraser",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Gadaba",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Gaelic script",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Galik",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Georgian (Asomtavruli)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Georgian (Mkhedruli)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Georgian (Nuskhuri)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Glagolitic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Gondi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Gothic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Goudu",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Grantha",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Greek",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Gujarati",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Gupta",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Gurmukhi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Hanguel (Korean)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Hanifi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Hanuno'o",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Hebrew",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Hiragana (Japanese)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Hittite",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Iban",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Iberian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Indus/Harappa script",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.International Phonetic Alphabet",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Inuktitut",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Irish (Uncial)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Japanese",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Jatapu",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Javanese",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Jenticha",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Jurchen",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kabiye",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kaddare",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kaithi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kammara",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kanji (Japanese)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kannada",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kasem",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Katakana (Japanese)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kawi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kerinci",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kharosthi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Khatt-i-Badí’",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Khazarian Rovas",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Khitan",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Khmer",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Khojki",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kolam",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Konda-Dora",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Korean (Hanguel)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kotia",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Koya",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kpelle",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kulitan",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Kupia",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Lampung",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Lanna",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Lao",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Latin",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Lepcha",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Lepontic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Limbu",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Linear A",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Linear B",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Loma",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Lontara/Makasar",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Lota Ende",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Luo Lakeside Script",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Luwian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Lycian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Lydian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Malayalam",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Mali",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Manchu",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Mandaic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Mandombe",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Manichaean",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Manpuri",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Maritime Signal Flags",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Marsiliana",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Mayan",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Medieval (Latinised) Futhark",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Mende",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Meroïtic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Merovingian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Messapic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Modi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Mon",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Mongolian Horizontal Square Script",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Mongolian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Mono",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Moon",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Morisco (Aljamiado)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Morse code",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Mro",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Mukha Dora",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Mwangwego",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Nabataean",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Naguaké Taíno Pictographic Alphabet",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Naxi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Ndjuká",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.New Tai Lue",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.N'Ko",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.North Picene",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Nüshu",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Odia",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Ogham",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Oirat Clear Script",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Ojibwe",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Old Church Slavonic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Old Elamite",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Old Italic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Old English",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Old Nubian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Old Permic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Old Persian Cuneiform",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Orkhon",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Osage",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Oscan",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Pahawh Hmong",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Pahlavi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Paleo-Hebrew",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Pallava",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Parthian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Phags-pa",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Phaistos Disc script",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Phoenician",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Phrygian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Pitman Initial Teaching Alphabet",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Pollard script",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Proto-Elamite",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Proto-Sinaitic / Proto-Canaanite",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Psalter",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Punic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Quikscript/Read Alphabet",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Rana",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Ranjana",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Redjang",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Roman Cursive",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Rongo Rongo",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Runic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Rustic Captials",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sabaean",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Samaritan",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Santali",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sasak",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sawndip (Old Zhuang)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Satera Jontal",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Savara",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Semaphore",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Shan",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sharda",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Shavian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Shorthand",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Siddham",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Simpel-Fonetik",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sindhi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sinhala",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sogdian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Solresol",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Somali (Osmanya)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sorang Sompeng",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sourashtra",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.South Arabian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.South Picene",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Soyombo",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sugali",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sui",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sumerian Cuneiform",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sundanese",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sütterlin",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Sutton SignWriting",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Syloti Nagri",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Syriac",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Székely-Hungarian Rovás (Hungarian Runes)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Tagbanwa",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Tai Lue",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Takri",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Tamil",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Tammari",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Tangut (Hsihsia)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Telugu",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Thaana",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Thai",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Tibetan",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Tifinagh",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Tigalari (Tulu)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Tikamuli",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Tocharian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Todhri",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Tolong Siki",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Ugaritic",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Umbrian",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Uyghur",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Vai",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Varang Kshiti",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Vinča script",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Visible Speech",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Visigothic Script",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Welsh Braille",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Xixia (Tangut)",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Xibe",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Yerukula",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Yi",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Younger Futhark",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Yugtun",
+  "imports": ["single.master.writing"]
+}, {
+  "name": "single.wr.Zaghawa",
+  "imports": ["single.master.writing"]
+}
+]
